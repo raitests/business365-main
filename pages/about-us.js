@@ -6,6 +6,7 @@ import Testimonial from "../components/home-page/home-1/Testimonial";
 import Team3 from "../components/team/Team3";
 import Link from "next/link";
 import VideoBlock from "../components/about/VideoBlock";
+import Card from "../components/test/Card";
 
 const AboutUsV1 = () => {
   const features = [
@@ -32,6 +33,7 @@ const AboutUsV1 = () => {
       ============================================== 	
       --> */}
       <DefaulHeader />
+   
 
       {/* 
 			=============================================
@@ -41,17 +43,28 @@ const AboutUsV1 = () => {
       <div className="fancy-feature-fiftyOne position-relative mt-200">
         <div className="container">
           <div className="row">
-              <div className="title-style-five mb-65 md-mb-40">
-                <h2 className="main-title fw-500 text-center tx-dark">
-                  About Business 365
-                </h2>
-              </div>
+            <div className="title-style-five mb-65 md-mb-40">
+              <h2 className="main-title fw-500 text-center tx-dark">
+                About Business 365
+              </h2>
+            </div>
           </div>
           <div className="row">
             <div className="col-xl-12 col-lg-12 ms-auto">
-                <p className="text-lg text-center tx-dark">
-                Business 365 is a leading software company renowned for its innovative and robust Enterprise Resource Planning (ERP) solutions. With a commitment to excellence, we design software that integrates various business processes, enabling organizations to operate more efficiently and make data-driven decisions. Our ERP solutions are tailored to meet the unique needs of diverse industries, providing a seamless experience that enhances collaboration, automates workflows, and ensures compliance with industry standards. Leveraging cutting-edge technology and a customer-centric approach, Business 365 empowers businesses to thrive in a competitive landscape, fostering growth and success.
-                </p>
+              <p className="text-lg text-center tx-dark">
+                Business 365 is a leading software company renowned for its
+                innovative and robust Enterprise Resource Planning (ERP)
+                solutions. With a commitment to excellence, we design software
+                that integrates various business processes, enabling
+                organizations to operate more efficiently and make data-driven
+                decisions. Our ERP solutions are tailored to meet the unique
+                needs of diverse industries, providing a seamless experience
+                that enhances collaboration, automates workflows, and ensures
+                compliance with industry standards. Leveraging cutting-edge
+                technology and a customer-centric approach, Business 365
+                empowers businesses to thrive in a competitive landscape,
+                fostering growth and success.
+              </p>
             </div>
           </div>
         </div>
@@ -77,11 +90,15 @@ const AboutUsV1 = () => {
         <div className="container">
           <div className="wrapper position-relative">
             <div className="row align-items-center">
-                <div className="title-style-six text-center pb-40 lg-pb-20 md-pb-10">
-                  <h2 className="main-title fw-500 tx-dark">Our Team</h2>
-                  <p className="cr-text text-center text-lg tx-dark" data-aos="fade-up">
-              Our committed team members are powering Biz365</p>
-                </div>
+              <div className="title-style-six text-center pb-40 lg-pb-20 md-pb-10">
+                <h2 className="main-title fw-500 tx-dark">Our Team</h2>
+                <p
+                  className="cr-text text-center text-lg tx-dark"
+                  data-aos="fade-up"
+                >
+                  Our committed team members are powering Biz365
+                </p>
+              </div>
             </div>
             {/* /.row */}
             <div className="row">
@@ -140,7 +157,9 @@ const AboutUsV1 = () => {
                 </div>
                 {/* /.title-style-ten */}
                 <p className="fs-20 pt-10 pb-30 lg-pb-20">
-                  Do you have questions?<br />  Reach out to us with a message for prompt assistance and support. We&apos;re here to help you.
+                  Do you have questions?
+                  <br /> Reach out to us with a message for prompt assistance
+                  and support. We&apos;re here to help you.
                 </p>
                 <div className="btn-eighteen position-relative d-inline-block tx-dark">
                   <Link href="/contact" className="fw-500 tran3s">
